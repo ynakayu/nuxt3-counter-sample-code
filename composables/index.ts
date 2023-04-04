@@ -1,0 +1,1 @@
+export const useCounterState = () => useState<number>('count', () => 0)
